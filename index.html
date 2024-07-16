@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favion.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSITE UJI COBA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/logocaffe.jpg" alt="logo" class="logo-img" />
+        <h1 class="logo-title">GEN-Z SPOT</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#alamat"> ALAMAT </a></li>
+          <li><a href="#keunggulan"> KEUNGGULAN </a></li>
+          <li><a href="mailto:fathifarhad03@gmail.com"> KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Ikuti Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <h2 class="tittle">Terima Kasih Sudah Mengunjungi Website Kami</h2>
+        <p class="description">Raih Mimpi Dengan Secangkir Coffe</p>
+        <img src="assets/foto/foto2.jpg" alt="foto1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang" id="alamat">
+        <p class="tittle">Caffe Kami Terletak Di</p>
+        <p class="description">
+          Jln.kalimantan No 28 Kec.kraksaan Kab.probolinggo Provinsi Jawa Timur
+        </p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Kerjasama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="keunggulan">
+          <div class="card-item">
+            <img src="assets/icon/24-hours.png" alt="icon 1" class="icon" />
+            <h3 class="card-tittle">BUKA SETIAP WAKTU</h3>
+            <p class="card-description">
+              Kerja Malam? Isi Perut dan Tenagamu di GEN-Z SPOT! Kami buka 24
+              jam
+            </p>
+            <p class="card-description">
+              siap melayani kamu yang selalu semangat.
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon" />
+            <h3 class="card-tittle">PAKET HEMAT BEGADANG</h3>
+            <p class="card-description">
+              Kopi & Camilan 24 Jam Diskon 10%! Hanya di GEN-Z SPOT!
+            </p>
+            <p class="card-description">
+              Promo berlaku sepanjang malam, ayo buruan mampir!
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/rating.png" alt="icon 3" class="icon" />
+            <h3 class="card-tittle">CAFFE 24 JAM DI JAMIN PUAS!</h3>
+            <p class="card-description">
+              GEN-Z SPOT Kafe Hits yang Gak Bikin Kantong Bokek!
+            </p>
+            <p class="card-description">
+              Harga terjangkau,tempat nyaman, dan rasa mantap. Dijamin puas!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="tittle">&copy; Fathi Farhad Website 2024</p>
+      </footer>
+      <script>
+        function redirInstagram() {
+          window.location.href =
+            "https://www.instagram.com/fatehhh__1/?igsh=MXMzZWlucXV3bGFxcQ%3D%3D";
+        }
+        function redirWhatsapp() {
+          window.location.href = "https://wa.me/+6281615600457";
+        }
+      </script>
+    </div>
+  </body>
+</html>
